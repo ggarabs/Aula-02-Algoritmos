@@ -23,11 +23,11 @@ int main(){
         }
 
         if(chute == sorteado){
-            printf("Parabéns!!! Você acertou em %d tentativa(s).\n", tentativas);
+            printf("Parabens!!! Voce acertou em %d tentativa(s).\n", tentativas);
         }else if(chute < sorteado){
-            printf("Você chutou muito baixo!\n");
+            printf("Voce chutou muito baixo!\n");
         }else{
-            printf("Você chutou muito alto!\n");
+            printf("Voce chutou muito alto!\n");
         }
     }
 
